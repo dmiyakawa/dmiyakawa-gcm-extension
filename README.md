@@ -1,11 +1,17 @@
-Chrome extension for Google Cloud Messaging experiments.
+A simple example for Google Cloud Messaging: Chrome Extension side.
 
-This should be used with
+GAE side:
 https://github.com/dmiyakawa/dmiyakawa-gcm-gae
 
-You need to register this extension to Google Play, and
-download the registered app.
-Withoout doing that, you cannot get a valid channel ID.
+See also:
 http://developer.chrome.com/apps/cloudMessaging.html
+
+***
+
+You need to specify your GAE app id to app.yaml.
+Also, to obtain valid channel Ids, you probably need to
+register this extension to Chrome Web Store.
+
+***
 
 Licensed under the Apache License, Version 2.0.

@@ -1,12 +1,14 @@
 {
   "manifest_version": 2,
-  "name": "Google Cloud Messaging experiment",
+  "name": "GCM Example MinUI",
   "description": "Let the server notify YOU",
-  "version": "1.2",
+  "version": "1.4",
   "background": {
     "page": "background.html"
   },
-  "permissions": [  
+  "permissions": [ 
+    "*://localhost/*",
+    "*://*.appspot.com/*",
     "pushMessaging"
   ],
   "browser_action": {
